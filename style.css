@@ -1,0 +1,65 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 212, 0.397)), to(rgba(9, 187, 241, 0.253)));
+  background-image: linear-gradient(to bottom, rgba(255, 0, 212, 0.397), rgba(9, 187, 241, 0.253));
+  background-size: cover;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pd6-photo {
+  position: absolute;
+  height: 5rem;
+  width: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  outline-offset: 0.5rem;
+}
+
+.winniethepooh {
+  margin: auto;
+  top: 10rem;
+  left: 24rem;
+}
+
+.Xi_Jingping_2019 {
+  top: 15rem;
+  left: 0rem;
+}
+
+.honeymustard {
+  top: 35rem;
+  left: 48rem;
+}
+
+.pd6-photo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  outline: 0.05rem dotted #222;
+  z-index: 2;
+}
+
+.gallery:hover .pd6-photo:not(:hover) {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  opacity: 0.3;
+}
+/*# sourceMappingURL=style.css.map */
