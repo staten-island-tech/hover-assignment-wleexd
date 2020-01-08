@@ -39,9 +39,22 @@ body {
   left: 36rem;
 }
 
-.Xi_Jingping_2019 {
-  top: 15rem;
-  left: -20rem;
+.Xi_Jinping_2019 {
+  top: 10rem;
+  left: 5rem;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .honeymustard {
@@ -55,22 +68,36 @@ body {
 }
 
 .car {
-  top: 45rem;
-  left: -35rem;
+  top: 40rem;
+  left: -25rem;
+}
+
+.whalen:hover {
+  -webkit-filter: invert(75%);
+          filter: invert(75%);
+}
+
+.car:hover {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+.Xi_Jinping_2019:hover {
+  -webkit-box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+          box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
+}
+
+.winniethepooh:hover {
+  border-radius: 50%;
 }
 
 .honeymustard:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-}
-
-.pd6-photo:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  outline: 0.05rem #222;
-  z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .gallery:hover .pd6-photo:not(:hover) {
