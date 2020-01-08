@@ -53,8 +53,14 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  top: 10rem;
+  left: -30rem;
   cursor: pointer;
+}
+
+.button:hover {
+  -webkit-box-shadow: 1px 1px #2222, 2px 2px #2222, 3px 3px #2222;
+          box-shadow: 1px 1px #2222, 2px 2px #2222, 3px 3px #2222;
 }
 
 .honeymustard {
@@ -78,8 +84,8 @@ body {
 }
 
 .car:hover {
-  -webkit-filter: blur(4px);
-          filter: blur(4px);
+  -webkit-filter: blur(15px);
+          filter: blur(15px);
 }
 
 .Xi_Jinping_2019:hover {
