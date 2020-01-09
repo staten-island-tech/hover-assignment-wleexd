@@ -89,10 +89,10 @@ body {
 }
 
 .Xi_Jinping_2019:hover {
-  -webkit-box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
-          box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
-  -webkit-transform: translateX(-100px);
-  transform: translateX(-100px);
+  -webkit-box-shadow: 2px 2px #53a7ea, 3px 3px #53a7ea, 5px 5px #53a7ea;
+          box-shadow: 2px 2px #53a7ea, 3px 3px #53a7ea, 5px 5px #53a7ea;
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
 }
 
 .winniethepooh:hover {
