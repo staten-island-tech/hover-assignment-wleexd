@@ -100,10 +100,10 @@ body {
 }
 
 .honeymustard:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transform: rotate(1080deg);
+          transform: rotate(1080deg);
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .gallery:hover .pd6-photo:not(:hover) {
