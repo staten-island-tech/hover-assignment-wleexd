@@ -6,14 +6,20 @@ html {
 }
  
 body {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 0, 212, 0.397),
-    rgba(9, 187, 241, 0.253)
-  );
-  background-size: cover;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
 }
- 
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 .gallery {
   margin:0;
   padding:0;
@@ -92,14 +98,17 @@ transform: translateX(25px);
 }
 
 .honeymustard:hover{
-  transform: rotate(1080deg);
-  transition: all 2s ease-in-out;
+  transform: rotate(3600deg);
+  transition: all 4
+  s ease-in-out;
 }
 
 .gallery:hover .pd6-photo:not(:hover){
   transform: scale(0.5);
   opacity: 0.3;
 }
+
+
 /* html {
   padding: 0;
   margin: 0;
